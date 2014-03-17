@@ -26,7 +26,7 @@ describe('Option', function(){
     
     it('should return None if empty', function(){
         var o = new Option();
-        (o.get()).should.be.false;
+        (o.get()).should.be.None;
     })
    
     // collections
@@ -40,7 +40,7 @@ describe('Option', function(){
     
     it('should not be able to map an empty option', function(){
         var o = new Option();
-        (o.map(function (v) { }).get()).should.be.false;
+        (o.map(function (v) { }).get()).should.be.None;
         (o.map(function (v) { }).getOrElse("nah")).should.be.equal("nah");
     })
     
