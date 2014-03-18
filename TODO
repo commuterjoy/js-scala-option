@@ -1,0 +1,4 @@
+
+- support for `Some` an `None`
+- method `equals` to compare Options
+
