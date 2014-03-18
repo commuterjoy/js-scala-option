@@ -1,6 +1,6 @@
-Scala's Option for JavaScript.
+Scala's [Option](http://www.scala-lang.org/api/2.10.2/scala/Option.html) for JavaScript.
 
-Idiomatically,
+Idiomatically, 
 
 ```
 // Define an option with a value
